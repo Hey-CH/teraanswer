@@ -1,0 +1,17 @@
+﻿<Window x:Class="tera42684.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tera42684"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TabControl>
+            <TabItem Header="t1" PreviewMouseLeftButtonDown="TabItem_PreviewMouseLeftButtonDown"/>
+            <TabItem Header="t2" PreviewMouseLeftButtonDown="TabItem_PreviewMouseLeftButtonDown"/>
+            <TabItem Header="t3" PreviewMouseLeftButtonDown="TabItem_PreviewMouseLeftButtonDown"/>
+            <TabItem Header="t4" PreviewMouseLeftButtonDown="TabItem_PreviewMouseLeftButtonDown"/>
+        </TabControl>
+    </Grid>
+</Window>
