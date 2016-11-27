@@ -1,0 +1,62 @@
+﻿<Window x:Class="tera56191.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tera56191"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10"/>
+                <RowDefinition Height="10"/>
+                <RowDefinition Height="5"/>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0">
+                <StackPanel.Style>
+                    <Style TargetType="StackPanel">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding Row, RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=Grid}}" Value="0">
+                                <Setter Property="Background" Value="Red"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding Row, RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=Grid}}" Value="1">
+                                <Setter Property="Background" Value="Blue"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding Row, RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=Grid}}" Value="2">
+                                <Setter Property="Background" Value="Green"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </StackPanel.Style>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1">
+            <StackPanel>
+                <StackPanel.Style>
+                    <Style TargetType="StackPanel">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding Row, RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=Grid}}" Value="0">
+                                <Setter Property="Background" Value="Red"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding Row, RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=Grid}}" Value="1">
+                                <Setter Property="Background" Value="Blue"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding Row, RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=Grid}}" Value="2">
+                                <Setter Property="Background" Value="Green"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </StackPanel.Style>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="2" local:ClassA.A="a">
+            <TextBox Text="{Binding A, RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=Grid}}"/>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace tera56307 {
+    public partial class Form1 : Form {
+        DateModel model;
+        public Form1() {
+            InitializeComponent();
+        }
+        public Form1(DateModel m) {
+            InitializeComponent();
+            model = m;
+        }
+    }
+}

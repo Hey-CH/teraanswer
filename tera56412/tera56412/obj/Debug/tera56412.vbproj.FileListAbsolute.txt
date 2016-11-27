@@ -1,0 +1,10 @@
+C:\Users\BlackTomato\Desktop\SampleCode\tera56412\tera56412\bin\Debug\tera56412.exe.config
+C:\Users\BlackTomato\Desktop\SampleCode\tera56412\tera56412\bin\Debug\tera56412.exe
+C:\Users\BlackTomato\Desktop\SampleCode\tera56412\tera56412\bin\Debug\tera56412.pdb
+C:\Users\BlackTomato\Desktop\SampleCode\tera56412\tera56412\bin\Debug\tera56412.xml
+C:\Users\BlackTomato\Desktop\SampleCode\tera56412\tera56412\obj\Debug\tera56412.vbprojResolveAssemblyReference.cache
+C:\Users\BlackTomato\Desktop\SampleCode\tera56412\tera56412\obj\Debug\tera56412.Resources.resources
+C:\Users\BlackTomato\Desktop\SampleCode\tera56412\tera56412\obj\Debug\tera56412.vbproj.GenerateResource.Cache
+C:\Users\BlackTomato\Desktop\SampleCode\tera56412\tera56412\obj\Debug\tera56412.exe
+C:\Users\BlackTomato\Desktop\SampleCode\tera56412\tera56412\obj\Debug\tera56412.xml
+C:\Users\BlackTomato\Desktop\SampleCode\tera56412\tera56412\obj\Debug\tera56412.pdb
